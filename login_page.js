@@ -1,6 +1,6 @@
  function emailFunction(){
 		var userValue=document.getElementById("emailId").value;
-		var namePattern="^[A-Za-z0-9]+[@]{1}[a-z]+(.com|.co.in|.in)$";
+		var namePattern="^[1-9]{1}[0-9]{3}$";
 		document.getElementById("validemail").style.color="red";
 	
 		if(!userValue.match(namePattern)){
